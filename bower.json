@@ -1,10 +1,7 @@
 {
   "name": "ngui-modal",
   "homepage": "https://github.com/PuujeU/ngui-modal",
-  "authors": [
-  ],
-  "description": "Angular sample modal module",
-  "main": "",
+  "description": "Angular modal module",
   "license": "MIT",
   "ignore": [
     "node_modules",
