@@ -1,0 +1,34 @@
+<html lang="en" ng-app="modal-demo">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modal module demo </title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Modal module demo</h1>
+      <ul class="nav nav-tabs">
+        <li role="presentation" ng-class="{active: $pageName =='modal'}"><a href="#modal">Modal</a></li>
+      </ul>
+    </div>
+
+    <div ng-view class="container"></div>
+
+    <!--vendors-->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+
+    <!--ngui-->
+    <script src="/modal/modal.js"></script>
+
+    <!--demo-->
+    <script src="/demo/modal/ctrl.js"></script>
+    <script src="/demo/demo.js"></script>
+
+  </body>
+</html>
+

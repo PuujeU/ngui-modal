@@ -1,0 +1,10 @@
+{
+  "name": "ngui-modal",
+  "version": "1.0.0",
+  "description": "Angular sample modal module",
+  "main": "core.js",
+  "scripts": {
+    "start":"http-server ."
+  },
+  "private": true
+}
